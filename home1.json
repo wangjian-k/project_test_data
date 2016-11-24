@@ -669,7 +669,7 @@
                             "stat_name": "个人中心:历史", 
                             "ui_type": {
                                 "unitary": false, 
-                                "name": "display_item_home_vipcard", 
+                                "name": "display_item_home", 
                                 "pos": {
                                     "y": 0, 
                                     "x": 1, 
@@ -696,10 +696,7 @@
                             "target": {
                                 "url": "tv/v3/user/info", 
                                 "entity": "usercenter:history", 
-                                "schema": "yktv",
-								"params": {
-									"vipdialog": true
-								}
+                                "schema": "yktv"
                             }
                         }, 
                         {
@@ -716,10 +713,9 @@
                             "ver": 1479861913, 
                             "stat_name": "专题:【每日有料】曝马蓉宋喆现身美国", 
                             "title": "", 
-                            "sub_title": "曝马蓉宋喆现身美国", 
                             "ui_type": {
                                 "unitary": false, 
-                                "name": "display_item", 
+                                "name": "display_item_home_vipcard", 
                                 "pos": {
                                     "y": 0, 
                                     "x": 4, 
@@ -731,8 +727,12 @@
                             "is_template": false, 
                             "images": {
                                 "poster": {
-                                    "url": "http://r4.cp31.ott.cibntv.net/051000005834E1666714C02D0C003F27", 
+                                    "url": "http://r1.cp31.ott.cibntv.net/05100000582174576714C05B1F0C0670", 
                                     "md5": "912628c02de07e1d676efc041e9491c4"
+                                }, 
+                                "normal": {
+                                    "url": "http://r4.cp31.ott.cibntv.net/051000005834E1666714C02D0C003F27", 
+                                    "md5": "580a236ab32e7dd33544e9382f280c63"
                                 }
                             }, 
                             "ad": {
@@ -742,7 +742,10 @@
                             "target": {
                                 "url": "tv/v3/subject/detail?id=546", 
                                 "entity": "subject:play", 
-                                "schema": "yktv"
+                                "schema": "yktv",
+								"params": {
+									"vipdialog": true
+								}
                             }
                         }, 
                         {

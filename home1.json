@@ -740,8 +740,8 @@
                             }, 
                             "id": 2626, 
                             "target": {
-                                "url": "tv/v3/subject/detail?id=546", 
-                                "entity": "subject:play", 
+                                "url": "tv/v3/user/info", 
+                                "entity": "usercenter:account",
                                 "schema": "yktv",
 								"params": {
 									"vipdialog": true

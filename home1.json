@@ -696,7 +696,10 @@
                             "target": {
                                 "url": "tv/v3/user/info", 
                                 "entity": "usercenter:history", 
-                                "schema": "yktv"
+                                "schema": "yktv",
+								"params": {
+									"vipdialog": true
+								}
                             }
                         }, 
                         {

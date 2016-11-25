@@ -468,7 +468,7 @@
             "filter": "", 
             "is_template": false, 
             "meta": {
-                "more": "/tv/v3/recommend?list_id=21&header_name=%E7%B2%BE%E9%80%89&header_position=1&navigation=%E9%A6%96%E9%A1%B5%E5%AF%BC%E8%88%AA"
+                "more": "http://cibn.api.3g.cp31.ott.cibntv.net/tv/v3/recommend?list_id=21&header_name=%E7%B2%BE%E9%80%89&header_position=1&navigation=%E9%A6%96%E9%A1%B5%E5%AF%BC%E8%88%AA"
             }, 
             "images": {
                 "focused_icon": {
